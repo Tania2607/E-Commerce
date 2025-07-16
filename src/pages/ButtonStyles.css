@@ -1,0 +1,43 @@
+.button-group {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart-btn {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.2s ease;
+}
+
+.cart-btn:hover {
+  background-color: #2563eb;
+}
+
+.wishlist-btn {
+  background: none;
+  border: 2px solid #e5e7eb;
+  color: #888;
+  font-size: 1.5rem;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.wishlist-btn.active {
+  border-color: red;
+  color: red;
+}
+
+.wishlist-btn:hover {
+  background-color: #fff0f0;
+}
