@@ -8,7 +8,9 @@ A modern and responsive **e-commerce frontend** application built with **React**
 > 🚧 **Note:** This is a **frontend-only project**. No backend or database is connected yet.
 
 ---
+> 🌐 **Live Demo**: [https://tania-shopease.netlify.app/](https://tania-shopease.netlify.app/)
 
+---
 ## ✨ Features
 
 * 🔐 **User Authentication** (Sign In / Sign Up via LocalStorage)
